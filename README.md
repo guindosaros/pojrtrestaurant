@@ -6,8 +6,9 @@
 #### - Configuration
 
 
-# Application Restaurant
+##### Application Restaurant
 l 'application restaurant sera l'application qui sera charger de gerer tous ceux qui est en rapport avec le restaurant
+ici on pourra gerer les menu les cuisinier et autre 
  - l'equipe 
  - le menu
  - les recettes 
