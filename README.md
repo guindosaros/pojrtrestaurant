@@ -55,6 +55,7 @@ ici on pourra gerer les menu les cuisinier et autre
     categorie_id = models.ForeignKey(Categorie, on_delete=models.CASCADE,related_name="category_client")
     nom = models.CharField(max_length=160)
     prix = models.FloatField()
+    description = models.TextField()
     ingrediant = models.ManyToManyField(Ingrediant,related_name="ingrediant_plat")
     image = models.ImageField(upload_to='image_plat')
     date_add =  models.DateTimeField(auto_now_add=True)
